@@ -1,0 +1,91 @@
+/*CSS Reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: white;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+        Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+
+
+.wrapper {
+
+    max-width: 1440px;
+    margin: 0 auto !important;
+    background:linear-gradient(to bottom right, black,rgb(40, 66, 40),black);
+    height: auto;
+
+}
+
+.navbar {
+	display: flex;
+	background: #6ab446 !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	height: auto !important;
+    width: inherit !important;
+}
+
+
+.navbar-brand img{
+	float: left !important;
+}
+.navbar-brand h2{
+	color: black;
+}
+.nav-link,.navbar-brand
+{
+	color: #fff !important;
+	cursor: pointer !important;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+.nav-link:hover {
+	color: #000 !important;
+}
+
+.navbar-collapse {
+	padding-left: 150px !important;
+
+}
+
+
+  
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+    top: 13px;
+  }
+
+  #alertText{
+    color: red;
+  }
+  @media (max-width: 500px) {
+
+    .navbar-brand img{
+		width: 40px !important;
+		height: 30px !important;
+		margin-right: 10px !important;
+	}
+    .nav-link {
+		text-align: center !important;
+	}
+    .navbar-collapse {
+		padding-left: 0px !important;
+	} 
+      
+  }

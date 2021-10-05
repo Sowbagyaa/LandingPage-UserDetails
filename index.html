@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<title>Learn Fullstack</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="icon" href="/image/FS_Logo.png">
+
+</head>
+
+<body>
+
+
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="/FS_Logo.png" alt="logo" width="60" height="50"><h2>Learn FullStack</h2></a>
+			
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Code Playground</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Courses
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="#">Android development</a></li>
+							<li><a class="dropdown-item" href="#">Web Development</a></li>
+							<li><a class="dropdown-item" href="#">CMS Technologies</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Resources</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Discussion Forum</a>
+					</li>
+				</ul>
+			</div>
+
+
+		</div>
+	</nav>
+
+
+	<header class="page-header header container-fluid" style="background-image:url('images/header-background3.jpg');">
+		<div class="overlay"></div>
+		<div class="description">
+			<h1>Welcome to Learn FullStack!</h1>
+			<p>Courses designed by experts with real-world practice. Join our global community. It's free.</p>
+			<a href="#jump"><button class="btn btn-outline-secondary btn-lg">Start Learning!</button></a>
+			<a href="login.html" target="_blank" ><button class="btn  btn-lg" type="button" >SignUp</button></a>
+		</div>
+	</header>
+
+
+
+	<!-- Modal -->
+	<div id="formModal" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Register and Start your learning</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<form method="POST" class="modal-content animate">
+
+						<legend>Please Enter Your Details</legend>
+						<label for="fname">First Name:</label>
+						<input type="text" id="fname" name="firstname" placeholder="First Name">
+
+						<label for="lname">Last Name:</label>
+						<input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+						<label for="Gender">Gender:</label>
+						<select id="Gender" name="Gender">
+							<option value="Male">Male</option>
+							<option value="Female" selected>Female</option>
+						</select>
+
+						<input type="submit" value="Submit">
+
+
+						<!-- <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button> -->
+
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="intro">
+		<h2>Who is a Full Stack Web Developer</h2>
+		<p title="Paragraph">A full stack web developer is a person who can develop both client and server software.
+			Full Stack Developers have to have skill from databases to graphic design and UI/UX management.
+			Cross-discipline web development skills involving front and back end - Deal with the overlap between the
+			front end and back end - Utilize
+			all the coding languages of the first two plus MySQL, machine learning,and more - Take responsibility for
+			the entire experience to make sure it goes smoothly.
+			A large web application with strong potential for scaling will require many hands on deck — Back End, Front
+			End, and Full Stack Developers.<p>
+	</div>
+
+	<div class="container features">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<h3 class="feature-title">Get Certified</h3>
+				<img src="images/certified.png" class="img-fluid">
+				<p>Earn a certificate to validate your newly acquired skills.Post it on social for others to see. Learn
+					on the web or on the go. Imagine combining your passion and skill with your creativity, and making
+					something new everyday!</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<h3 class="feature-title">Learning on the go!</h3>
+				<img src="images/learn.jfif" class="img-fluid">
+				<p>The best way to learn to code. More than 20 courses. We got everything you need. Go step-by-step
+					through our unique courses</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<h3 class="feature-title">Get in touch!</h3>
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="First Name" First Name="">
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Last Name" Last Name="">
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" placeholder="Email Address" name="email">
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" rows="4" placeholder="Enter your comments"></textarea>
+				</div>
+				<input type="submit" id="contact-us-send" class="btn btn-secondary btn-block" value="Send" name="Send">
+			</div>
+		</div>
+	</div>
+
+
+	<div class="blog" id="jump">
+		<div class="container exp-crs">
+			<h1 class="text-center">Explore the Courses</h1>
+			<div class="row">
+				<div class="col-md-4 col-lg-4 col-sm-12">
+					<div class="card card1">
+						<div class="card-img">
+							<a href="https://www.javascript.com/" target="_blank"><img src="images/js.png"
+									class="img-fluid"></a>
+						</div>
+
+						<div class="card-body">
+							<h4 class="card-title">JavaScript</h4>
+							<p class="card-text">3.6M Learners</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-12">
+					<div class="card card2">
+						<div class="card-img">
+							<a href="https://reactjs.org/" target="_blank"><img src="images/react.png"
+									class="img-fluid"></a>
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">React</h4>
+							<p class="card-text">170k Learners</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-12">
+					<div class="card card3">
+						<div class="card-img">
+							<a href="https://angular.io/" target="_blank"><img src="images/ang1.jpg"
+									class="img-fluid"></a>
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">Angular</h4>
+							<p class="card-text">1M Learners</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="blog">
+		<div class="container exp-crs">
+			<div class="row">
+				<div class="col-md-4 col-lg-4 col-sm-12">
+					<div class="card card4">
+						<div class="card-img">
+							<a href="#"><img src="images/node.png" class="img-fluid"></a>
+						</div>
+
+						<div class="card-body">
+							<h4 class="card-title">Node.js</h4>
+							<p class="card-text">16M Learners</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-12">
+					<div class="card card5">
+						<div class="card-img">
+							<a href="#"><img src="images/php.jfif" class="img-fluid"></a>
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">PHP</h4>
+							<p class="card-text">50k learners</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-12">
+					<div class="card card6">
+						<div class="card-img">
+							<a href="#"><img src="images/scss.jfif" class="img-fluid"></a>
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">SCSS</h4>
+							<p class="card-text">15.2M Learners</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+				aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+				aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+				aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="images/header-background2.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h2>Learn Right From the Scratch With The Best Built Modules</h2>
+
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="image/web.jfif" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h2>Subscribe Once - Access For Lifetime</h2>
+
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="image/css.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h2>Leading Edge Technologies Under One Hood</h2>
+
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+			data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+			data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+		</button>
+	</div>
+	<div class="blog">
+		<h1 class="text-center">Glance at Technologies</h1>
+	</div>
+	<div class="flexRow">
+		<div class="flexColumn">
+			<img src="images/react.png" style="width:100%">
+			<img src="images/html.png" style="width:100%">
+			<img src="images/node.png" style="width:100%">
+			<img src="images/js.png" style="width:100%">
+		</div>
+
+		<div class="flexColumn">
+			<img src="images/mongo.png" style="width:100%">
+			<img src="images/jquery.jpg" style="width:100%">
+			<img src="images/python.jpg" style="width:100%">
+			<img src="images/java.jpg" style="width:100%">
+		</div>
+
+		<div class="flexColumn">
+			<img src="images/json.png" style="width:100%">
+			<img src="images/www.jpg" style="width:100%">
+			<img src="images/btstrp.png" style="width:100%">
+			<img src="images/express.jfif" style="width:100%">
+		</div>
+
+		<div class="flexColumn">
+			<img src="images/angNew.png" style="width:100%">
+			<img src="images/backbonejs.png" style="width:100%">
+			<img src="images/vue.jpg" style="width:100%">
+			<img src="images/sql.jfif" style="width:100%">
+		</div>
+	</div>
+
+
+	<footer class="page-footer">
+		<div class="container ">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-12">
+					<h3 class="text-uppercase font-weight-bold">Learn FullStack</h3>
+					<p>Learn Full Stack is optimized for learning and training. Examples might be simplified to improve
+						reading and learning.
+						Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot
+						warrant full correctness of all content.
+						While using Learn Full stack, you agree to have read and accepted our terms of use, cookie and
+						privacy policy.</p>
+
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<h6 class="text-uppercase font-weight-bold">Contact</h6>
+					<p>Reach us at: <a href="mailto:learnFullStack@yahoo.com">learnFullStack@yahoo.com</a>
+
+					</p>
+				</div>
+			</div>
+			<div class="footer-copyright text-center">© 2020 | Copyright: LearnFullStack.com</div>
+			<div>
+				<h2 class="text-center">Happy Learning!</h2>
+			</div>
+	</footer>
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
